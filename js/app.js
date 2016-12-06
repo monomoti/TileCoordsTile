@@ -38,7 +38,7 @@ overLay.on("tileload",function(e){
     var mk = L.marker([bounds.getSouth(),bounds.getWest()],
         {
             icon:L.divIcon({
-                iconSize:[200,50],
+                iconSize:[200,80],
                 iconAnchor:[-20,150],
                 html: html,
                 className:"mydivicon"
